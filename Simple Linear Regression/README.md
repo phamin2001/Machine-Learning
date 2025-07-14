@@ -121,9 +121,5 @@ This project demonstrates:
 ## 🤝 Contributing
 This is an educational project. Suggestions for improvements or additional analyses are welcome!
 
-## 📄 License
-This project is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute this code with attribution. See the LICENSE file for details.
-
-
 
 
