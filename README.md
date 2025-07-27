@@ -31,6 +31,10 @@ Machine Learning/
 │   ├── multi_class_classification.ipynb
 │   └── obesity_dataset.csv
 │
+├── DecisionTree_SVM/
+│   ├── decsion_tree_svm.ipynb
+│   └── README.md
+│
 ├── README.md (this file)
 └── LICENSE
 ```
@@ -66,6 +70,16 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Model comparison and evaluation
   - Detailed performance metrics and confusion matrices
 
+### 🌳 Decision Tree vs SVM for Fraud Detection
+- **Objective**: Compare Decision Tree and SVM algorithms for credit card fraud detection
+- **Key Features**:
+  - Comprehensive algorithm comparison on imbalanced dataset
+  - Feature selection impact analysis (full vs. top 6 features)
+  - Advanced evaluation metrics (ROC-AUC, classification reports)
+  - Class imbalance handling with sample weights and balanced parameters
+  - Professional visualizations: ROC curves, confusion matrices, correlation analysis
+  - Business insights and production deployment recommendations
+
 ## 🛠️ Technologies Used
 
 - **Python 3.x**
@@ -73,7 +87,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - `pandas`: Data manipulation and analysis
   - `numpy`: Numerical computations
   - `matplotlib`: Data visualization
-  - `seaborn`: Statistical visualization
+  - `seaborn`: Statistical visualization and enhanced plots
   - `scikit-learn`: Machine learning algorithms and tools
 - **Development Environment**: Jupyter Notebook
 - **Version Control**: Git
@@ -108,15 +122,23 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 ### 🎯 Classification Methods
 - Multi-class classification strategies
-- Model comparison and selection
-- Feature importance analysis
-- Performance evaluation metrics
+- Binary classification for fraud detection
+- Model comparison and selection techniques
+- Feature importance and correlation analysis
+- Performance evaluation metrics and ROC analysis
+
+### 🌳 Advanced Classification Algorithms
+- **Decision Trees**: Interpretable models with depth control and pruning
+- **Support Vector Machines**: High-dimensional data classification with kernel methods
+- **Feature Selection**: Impact analysis and dimensionality reduction strategies
+- **Imbalanced Data Handling**: Sample weighting and balanced classification approaches
 
 ### 📋 General ML Skills
 - Data preprocessing and exploration
-- Visualization techniques for ML
-- Model validation and testing
-- Professional code documentation
+- Visualization techniques for ML insights
+- Model validation and testing methodologies
+- Professional code documentation and analysis
+- Business-oriented model interpretation and recommendations
 
 ## 🏆 Project Highlights
 
@@ -124,16 +146,45 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - Each project includes detailed exploratory data analysis
 - Statistical insights and data quality assessments
 - Professional visualizations and interpretations
+- Algorithm comparison and performance benchmarking
 
 ### 🔍 **Educational Value**
 - Step-by-step explanations of algorithms
-- Code comments and documentation
+- Code comments and detailed documentation
 - Theoretical background and practical implementation
+- Real-world problem-solving approaches
 
 ### 📈 **Professional Quality**
 - Clean, well-organized code structure
 - Reproducible results with fixed random seeds
 - Industry-standard evaluation metrics
+- Business insights and deployment considerations
+
+### 🎯 **Advanced Techniques**
+- Feature engineering and selection strategies
+- Class imbalance handling methods
+- Multiple algorithm comparison frameworks
+- Production-ready model evaluation pipelines
+
+## 🔍 Specialized Focus Areas
+
+### 🚨 **Fraud Detection & Security**
+- Imbalanced dataset handling techniques
+- False positive/negative cost analysis
+- Real-time scoring considerations
+- Risk management and business impact assessment
+
+### 📊 **Feature Engineering**
+- Correlation analysis and feature selection
+- Dimensionality reduction impact studies
+- Feature scaling and normalization techniques
+- Domain-specific feature creation strategies
+
+### ⚖️ **Model Comparison Frameworks**
+- Systematic algorithm evaluation methodologies
+- Performance trade-off analysis
+- Computational efficiency considerations
+- Interpretability vs. accuracy balance
 
 ## ⚠️ Prerequisites
 
@@ -141,14 +192,16 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - Familiarity with data science concepts
 - Knowledge of basic statistics and linear algebra
 - Understanding of machine learning fundamentals
+- Basic knowledge of classification and regression concepts
 
 ## 🎓 Educational Use
 
 This repository is designed for:
-- **Students** learning machine learning concepts
-- **Professionals** looking to understand practical implementations
-- **Instructors** seeking comprehensive examples for teaching
-- **Portfolio development** for job applications
+- **Students** learning machine learning concepts and implementations
+- **Professionals** looking to understand practical algorithm comparisons
+- **Data Scientists** seeking comprehensive evaluation frameworks
+- **Instructors** needing detailed examples for teaching ML concepts
+- **Portfolio development** for demonstrating ML skills to employers
 
 ## 🤝 Contributing
 
@@ -156,6 +209,8 @@ Contributions are welcome! Please feel free to:
 - Report bugs or issues
 - Suggest improvements or new features
 - Improve documentation and explanations
+- Add new machine learning projects or algorithms
+- Enhance visualization and analysis techniques
 
 ## 📞 Contact & Support
 
