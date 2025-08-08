@@ -35,6 +35,10 @@ Machine Learning/
 │   ├── decsion_tree_svm.ipynb
 │   └── README.md
 │
+├── Random Forest & XGBoost/
+│   ├── random_forests_XGBoost.ipynb
+│   └── README.md
+│
 ├── README.md (this file)
 └── LICENSE
 ```
@@ -80,7 +84,16 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Professional visualizations: ROC curves, confusion matrices, correlation analysis
   - Business insights and production deployment recommendations
 
-## 🛠️ Technologies Used
+### � Random Forest vs XGBoost (California Housing)
+- **Objective**: Compare RandomForestRegressor and XGBRegressor on the California Housing dataset
+- **Key Features**:
+  - Fair comparison with matching `n_estimators` and timed fit/predict
+  - Test metrics: Mean Squared Error (MSE) and R²
+  - Visualization: Predicted vs Actual scatter with ±1σ band for both models
+  - Reproducibility with fixed random seeds; guidance if xgboost is missing
+  - Notebook: `Random Forest & XGBoost/Random_Forests_XGBoost_personal.ipynb`
+
+## �🛠️ Technologies Used
 
 - **Python 3.x**
 - **Core Libraries**:
@@ -89,6 +102,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - `matplotlib`: Data visualization
   - `seaborn`: Statistical visualization and enhanced plots
   - `scikit-learn`: Machine learning algorithms and tools
+  - `xgboost`: Gradient-boosted trees implementation
 - **Development Environment**: Jupyter Notebook
 - **Version Control**: Git
 
@@ -102,7 +116,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 2. **Install required packages:**
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+  pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
    ```
 
 3. **Launch Jupyter Notebook:**
