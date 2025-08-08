@@ -116,7 +116,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 2. **Install required packages:**
    ```bash
-  pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
+    pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
    ```
 
 3. **Launch Jupyter Notebook:**
@@ -140,7 +140,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - Model comparison and selection techniques
 - Feature importance and correlation analysis
 - Performance evaluation metrics and ROC analysis
-
+`
 ### 🌳 Advanced Classification Algorithms
 - **Decision Trees**: Interpretable models with depth control and pruning
 - **Support Vector Machines**: High-dimensional data classification with kernel methods
