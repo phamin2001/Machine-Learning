@@ -9,7 +9,15 @@
 
 ## 📝 Overview
 
-This repository contains a collection of machine learning projects implemented in Python, covering supervised learning algorithms including regression and classification techniques. Each project includes detailed analysis, visualizations, and educational content suitable for learning and portfolio demonstration.
+This repository contains a comprehensive collection of machine learning projects implemented in Python, covering both **supervised** and **unsupervised learning** algorithms. The projects span from fundamental regression techniques to advanced ensemble methods and customer segmentation analysis. Each project includes detailed analysis, professional visualizations, business insights, and educational content suitable for learning and portfolio demonstration.
+
+### 🎯 **What You'll Find:**
+- **📊 Regression Analysis**: Linear regression techniques for predictive modeling
+- **🎯 Classification Methods**: Multi-class classification and fraud detection systems  
+- **🌳 Ensemble Learning**: Random Forest and XGBoost comparative analysis
+- **🔍 Unsupervised Learning**: K-Means clustering for customer segmentation
+- **💼 Business Applications**: Real-world problem solving with actionable insights
+- **📈 Advanced Visualizations**: From basic plots to interactive 3D analysis
 
 ## 📂 Project Structure
 
@@ -36,7 +44,11 @@ Machine Learning/
 │   └── README.md
 │
 ├── Random Forest & XGBoost/
-│   ├── random_forests_XGBoost.ipynb
+│   ├── Random_Forests_XGBoost_personal.ipynb
+│   └── README.md
+│
+├── K-Means/
+│   ├── K-Means_Customer_Segmentation_Personal.ipynb
 │   └── README.md
 │
 ├── README.md (this file)
@@ -84,7 +96,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Professional visualizations: ROC curves, confusion matrices, correlation analysis
   - Business insights and production deployment recommendations
 
-### � Random Forest vs XGBoost (California Housing)
+### 🚀 Random Forest vs XGBoost (California Housing)
 - **Objective**: Compare RandomForestRegressor and XGBRegressor on the California Housing dataset
 - **Key Features**:
   - Fair comparison with matching `n_estimators` and timed fit/predict
@@ -93,7 +105,18 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Reproducibility with fixed random seeds; guidance if xgboost is missing
   - Notebook: `Random Forest & XGBoost/Random_Forests_XGBoost_personal.ipynb`
 
-## �🛠️ Technologies Used
+### 🎯 K-Means Customer Segmentation
+- **Objective**: Apply unsupervised learning to identify distinct customer segments for targeted marketing
+- **Key Features**:
+  - Comprehensive K-Means implementation with synthetic data validation
+  - Real-world customer segmentation with business personas
+  - Elbow method for optimal cluster selection and inertia analysis
+  - Advanced 2D and interactive 3D visualizations
+  - Customer personas with actionable marketing strategies
+  - Business impact analysis and ROI estimation
+  - Feature standardization and preprocessing for distance-based clustering
+
+## 🛠️ Technologies Used
 
 - **Python 3.x**
 - **Core Libraries**:
@@ -103,6 +126,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - `seaborn`: Statistical visualization and enhanced plots
   - `scikit-learn`: Machine learning algorithms and tools
   - `xgboost`: Gradient-boosted trees implementation
+  - `plotly`: Interactive 3D visualizations
 - **Development Environment**: Jupyter Notebook
 - **Version Control**: Git
 
@@ -116,7 +140,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 2. **Install required packages:**
    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost plotly jupyter
    ```
 
 3. **Launch Jupyter Notebook:**
@@ -146,6 +170,13 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - **Support Vector Machines**: High-dimensional data classification with kernel methods
 - **Feature Selection**: Impact analysis and dimensionality reduction strategies
 - **Imbalanced Data Handling**: Sample weighting and balanced classification approaches
+
+### 🎯 Unsupervised Learning & Clustering
+- **K-Means Clustering**: Customer segmentation and pattern discovery
+- **Elbow Method**: Optimal cluster number selection techniques
+- **Feature Standardization**: Preprocessing for distance-based algorithms
+- **Business Translation**: Converting technical clusters into actionable insights
+- **Customer Personas**: Marketing strategy development from clustering results
 
 ### 📋 General ML Skills
 - Data preprocessing and exploration
@@ -199,6 +230,12 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - Performance trade-off analysis
 - Computational efficiency considerations
 - Interpretability vs. accuracy balance
+
+### 🎯 **Customer Analytics & Business Intelligence**
+- Customer segmentation and persona development
+- Marketing strategy optimization through clustering
+- Business impact assessment and ROI calculation
+- Data-driven customer relationship management
 
 ## ⚠️ Prerequisites
 
