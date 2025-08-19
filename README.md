@@ -1,4 +1,11 @@
-# 🧠 Machine Learning with Python
+# 🧠 Machine ### 📝 **What You'll Find:**
+- **📊 Regression Analysis**: Linear regression techniques for predictive modeling
+- **🎯 Classification Methods**: Multi-class classification and fraud detection systems  
+- **🌳 Ensemble Learning**: Random Forest and XGBoost comparative analysis
+- **🔍 Clustering Algorithms**: K-Means, DBSCAN, and HDBSCAN for pattern discovery
+- **🗺️ Geographic Analysis**: Spatial clustering and location intelligence
+- **💼 Business Applications**: Real-world problem solving with actionable insights
+- **📈 Advanced Visualizations**: From basic plots to interactive 3D and geographic analysisg with Python
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn logo" width="100"/>
@@ -49,6 +56,11 @@ Machine Learning/
 │
 ├── K-Means/
 │   ├── K-Means_Customer_Segmentation_Personal.ipynb
+│   └── README.md
+│
+├── DBSCAN_HDBSCAN_Clustering/
+│   ├── dbscan_hdbscan_clustering.ipynb
+│   ├── requirements.txt
 │   └── README.md
 │
 ├── README.md (this file)
@@ -116,6 +128,18 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Business impact analysis and ROI estimation
   - Feature standardization and preprocessing for distance-based clustering
 
+### 🗺️ DBSCAN vs HDBSCAN Geographic Clustering
+- **Objective**: Compare density-based clustering algorithms on Canadian museum location data
+- **Key Features**:
+  - Comprehensive comparison of DBSCAN and HDBSCAN algorithms
+  - Real-world geographic data from Statistics Canada (ODCAF)
+  - Proper geographic coordinate scaling for distance calculations
+  - Professional map visualizations with geopandas and contextily
+  - Density-based clustering for varying geographic densities
+  - Noise detection and outlier identification for rural locations
+  - Educational content with detailed algorithm explanations
+  - Practical applications for tourism, urban planning, and resource allocation
+
 ## 🛠️ Technologies Used
 
 - **Python 3.x**
@@ -127,6 +151,9 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - `scikit-learn`: Machine learning algorithms and tools
   - `xgboost`: Gradient-boosted trees implementation
   - `plotly`: Interactive 3D visualizations
+  - `hdbscan`: Hierarchical density-based clustering
+  - `geopandas`: Geographic data processing and visualization
+  - `contextily`: Basemap integration for geographic plots
 - **Development Environment**: Jupyter Notebook
 - **Version Control**: Git
 
@@ -140,7 +167,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 2. **Install required packages:**
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost plotly jupyter
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost plotly jupyter hdbscan geopandas contextily shapely requests
    ```
 
 3. **Launch Jupyter Notebook:**
@@ -173,6 +200,9 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 ### 🎯 Unsupervised Learning & Clustering
 - **K-Means Clustering**: Customer segmentation and pattern discovery
+- **DBSCAN Clustering**: Density-based clustering with noise detection
+- **HDBSCAN Clustering**: Hierarchical density-based clustering for varying densities
+- **Geographic Clustering**: Spatial data analysis with proper coordinate scaling
 - **Elbow Method**: Optimal cluster number selection techniques
 - **Feature Standardization**: Preprocessing for distance-based algorithms
 - **Business Translation**: Converting technical clusters into actionable insights
@@ -236,6 +266,13 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - Marketing strategy optimization through clustering
 - Business impact assessment and ROI calculation
 - Data-driven customer relationship management
+
+### 🗺️ **Geographic Data Analysis**
+- Spatial clustering and geographic pattern recognition
+- Coordinate system handling and scaling techniques
+- Density-based clustering for irregular spatial distributions
+- Geographic visualization with basemap integration
+- Location intelligence for business and policy decisions
 
 ## ⚠️ Prerequisites
 
