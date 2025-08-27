@@ -23,7 +23,8 @@ This repository contains a comprehensive collection of machine learning projects
 - **🎯 Classification Methods**: Multi-class classification and fraud detection systems  
 - **🌳 Ensemble Learning**: Random Forest and XGBoost comparative analysis
 - **🔍 Unsupervised Learning**: K-Means clustering for customer segmentation
-- **💼 Business Applications**: Real-world problem solving with actionable insights
+- **� Dimensionality Reduction**: PCA visualization and explained variance analysis
+- **�💼 Business Applications**: Real-world problem solving with actionable insights
 - **📈 Advanced Visualizations**: From basic plots to interactive 3D analysis
 
 ## 📂 Project Structure
@@ -61,6 +62,10 @@ Machine Learning/
 ├── DBSCAN_HDBSCAN_Clustering/
 │   ├── dbscan_hdbscan_clustering.ipynb
 │   ├── requirements.txt
+│   └── README.md
+│
+├── PCA/
+│   ├── pca_demo.ipynb
 │   └── README.md
 │
 ├── README.md (this file)
@@ -139,6 +144,14 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Noise detection and outlier identification for rural locations
   - Educational content with detailed algorithm explanations
   - Practical applications for tourism, urban planning, and resource allocation
+
+### 📉 PCA: Dimensionality Reduction & Visualization
+- **Objective**: Build intuition for PCA with synthetic 2D data and reduce Iris (4D) to 2D.
+- **Key Features**:
+  - Projection intuition: visualize projections onto PC1 and PC2
+  - 2D visualization of Iris classes in PCA space
+  - Explained variance and cumulative variance plots to choose number of PCs
+  - Notebook: `PCA/pca_demo.ipynb`
 
 ## 🛠️ Technologies Used
 
