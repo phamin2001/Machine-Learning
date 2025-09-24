@@ -1,16 +1,36 @@
-# 🧠 Machine ### 📝 **What You'll Find:**
-- **📊 Regression Analysis**: Linear regression techniques for predictive modeling
-- **🎯 Classification Methods**: Multi-class classification and fraud detection systems  
-- **🌳 Ensemble Learning**: Random Forest and XGBoost comparative analysis
-- **🔍 Clustering Algorithms**: K-Means, DBSCAN, and HDBSCAN for pattern discovery
-- **🗺️ Geographic Analysis**: Spatial clustering and location intelligence
-- **💼 Business Applications**: Real-world problem solving with actionable insights
-- **📈 Advanced Visualizations**: From basic plots to interactive 3D and geographic analysisg with Python
+# 🧠 Machine Learning with Python
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn logo" width="100"/>
   <p><em>A comprehensive collection of machine learning projects and implementations</em></p>
 </div>
+
+### 📝 **What You'll Find:**
+- **📊 Regression Analysis**: Linear regression techniques for predictive modeling
+- **🎯 Classification Methods**: Multi-class classification and fraud detection systems ### 🎯 **Unsupervised Learning & Clustering**
+- **K-Means Clustering**: Customer segmentation and pattern discovery
+- **DBSCAN Clustering**: Density-based clustering with noise detection
+- **HDBSCAN Clustering**: Hierarchical density-based clustering for varying densities
+- **Geographic Clustering**: Spatial data analysis with proper coordinate scaling
+- **Elbow Method**: Optimal cluster number selection techniques
+- **Feature Standardization**: Preprocessing for distance-based algorithms
+- **Business Translation**: Converting technical clusters into actionable insights
+- **Customer Personas**: Marketing strategy development from clustering results
+
+### 📉 **Dimensionality Reduction**
+- **PCA**: Linear dimensionality reduction and feature extraction
+- **t-SNE**: Nonlinear manifold learning for visualization
+- **UMAP**: Manifold learning with better preservation of global structure
+- **Parameter Tuning**: Optimizing algorithm parameters for better results
+- **Standardization Impact**: Effect of feature scaling on reduction methods
+- **Visualization Techniques**: Effective plotting for high-dimensional dataEnsemble Learning**: Random Forest and XGBoost comparative analysis
+- **🔍 Clustering Algorithms**: K-Means, DBSCAN, and HDBSCAN for pattern discovery
+- **🗺️ Geographic Analysis**: Spatial clustering and location intelligence
+- **📉 Dimensionality Reduction**: PCA, t-SNE and UMAP for visualization and analysis
+- **📊 Model Evaluation**: Comprehensive metrics and visualization techniques
+- **💼 Business Applications**: Real-world problem solving with actionable insights
+- **📈 Advanced Visualizations**: From basic plots to interactive 3D and geographic analysis
+
 
 ---
 
@@ -45,14 +65,14 @@ Machine Learning/
 │
 ├── Multi-class Classification/
 │   ├── multi_class_classification.ipynb
-│   └── obesity_dataset.csv
+│   └── Obesity_level_prediction_dataset.csv
 │
 ├── DecisionTree_SVM/
 │   ├── decsion_tree_svm.ipynb
 │   └── README.md
 │
 ├── Random Forest & XGBoost/
-│   ├── Random_Forests_XGBoost_personal.ipynb
+│   ├── random_forests_XGBoost.ipynb
 │   └── README.md
 │
 ├── K-Means/
@@ -61,11 +81,22 @@ Machine Learning/
 │
 ├── DBSCAN_HDBSCAN_Clustering/
 │   ├── dbscan_hdbscan_clustering.ipynb
+│   ├── Canada.tif
 │   ├── requirements.txt
 │   └── README.md
 │
 ├── PCA/
 │   ├── pca_demo.ipynb
+│   └── README.md
+│
+├── tSNE_UMAP_Dimension_Reduction/
+│   ├── tSNE_UMAP_Dimension_Reduction.ipynb
+│   ├── requirements.txt
+│   └── README.md
+│
+├── Evaluating_Classification_Models/
+│   ├── Evaluating_Classification_Models.ipynb
+│   ├── requirements.txt
 │   └── README.md
 │
 ├── README.md (this file)
@@ -146,12 +177,32 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Practical applications for tourism, urban planning, and resource allocation
 
 ### 📉 PCA: Dimensionality Reduction & Visualization
-- **Objective**: Build intuition for PCA with synthetic 2D data and reduce Iris (4D) to 2D.
+- **Objective**: Build intuition for PCA with synthetic 2D data and reduce Iris (4D) to 2D
 - **Key Features**:
   - Projection intuition: visualize projections onto PC1 and PC2
   - 2D visualization of Iris classes in PCA space
   - Explained variance and cumulative variance plots to choose number of PCs
   - Notebook: `PCA/pca_demo.ipynb`
+
+### 🔄 t-SNE vs UMAP: Advanced Dimensionality Reduction
+- **Objective**: Compare nonlinear dimensionality reduction techniques on synthetic 3D data
+- **Key Features**:
+  - Side-by-side comparison of PCA, t-SNE, and UMAP
+  - Interactive 3D visualization of the original data
+  - Parameter sensitivity analysis for t-SNE and UMAP
+  - Educational explanations of algorithm differences and trade-offs
+  - Standardization best practices for dimension reduction
+  - Notebook: `tSNE_UMAP_Dimension_Reduction/tSNE_UMAP_Dimension_Reduction.ipynb`
+
+### 📊 Evaluating Classification Models
+- **Objective**: Train and compare classification models on the breast cancer dataset
+- **Key Features**:
+  - Data preprocessing with standardization and noise simulation
+  - Implementation of KNN and SVM classifiers
+  - Comprehensive evaluation metrics (accuracy, precision, recall, F1-score)
+  - Confusion matrix visualization and interpretation
+  - Special focus on medical context and error type implications
+  - Notebook: `Evaluating_Classification_Models/Evaluating_Classification_Models.ipynb`
 
 ## 🛠️ Technologies Used
 
@@ -167,6 +218,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - `hdbscan`: Hierarchical density-based clustering
   - `geopandas`: Geographic data processing and visualization
   - `contextily`: Basemap integration for geographic plots
+  - `umap-learn`: Uniform Manifold Approximation and Projection for dimension reduction
 - **Development Environment**: Jupyter Notebook
 - **Version Control**: Git
 
@@ -180,7 +232,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 
 2. **Install required packages:**
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost plotly jupyter hdbscan geopandas contextily shapely requests
+   pip install pandas numpy matplotlib seaborn scikit-learn xgboost plotly jupyter hdbscan geopandas contextily shapely requests umap-learn
    ```
 
 3. **Launch Jupyter Notebook:**
