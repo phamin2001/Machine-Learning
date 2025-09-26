@@ -7,45 +7,19 @@
 
 ### 📝 **What You'll Find:**
 - **📊 Regression Analysis**: Linear regression techniques for predictive modeling
-- **🎯 Classification Methods**: Multi-class classification and fraud detection systems ### 🎯 **Unsupervised Learning & Clustering**
-- **K-Means Clustering**: Customer segmentation and pattern discovery
-- **DBSCAN Clustering**: Density-based clustering with noise detection
-- **HDBSCAN Clustering**: Hierarchical density-based clustering for varying densities
-- **Geographic Clustering**: Spatial data analysis with proper coordinate scaling
-- **Elbow Method**: Optimal cluster number selection techniques
-- **Feature Standardization**: Preprocessing for distance-based algorithms
-- **Business Translation**: Converting technical clusters into actionable insights
-- **Customer Personas**: Marketing strategy development from clustering results
-
-### 📉 **Dimensionality Reduction**
-- **PCA**: Linear dimensionality reduction and feature extraction
-- **t-SNE**: Nonlinear manifold learning for visualization
-- **UMAP**: Manifold learning with better preservation of global structure
-- **Parameter Tuning**: Optimizing algorithm parameters for better results
-- **Standardization Impact**: Effect of feature scaling on reduction methods
-- **Visualization Techniques**: Effective plotting for high-dimensional dataEnsemble Learning**: Random Forest and XGBoost comparative analysis
+- **🎯 Classification Methods**: Multi-class classification and fraud detection systems  
+- **🌳 Ensemble Learning**: Random Forest and XGBoost comparative analysis
 - **🔍 Clustering Algorithms**: K-Means, DBSCAN, and HDBSCAN for pattern discovery
 - **🗺️ Geographic Analysis**: Spatial clustering and location intelligence
 - **📉 Dimensionality Reduction**: PCA, t-SNE and UMAP for visualization and analysis
-- **📊 Model Evaluation**: Comprehensive metrics and visualization techniques
+- **📊 Model Evaluation**: Comprehensive performance assessment and interpretation techniques
 - **💼 Business Applications**: Real-world problem solving with actionable insights
 - **📈 Advanced Visualizations**: From basic plots to interactive 3D and geographic analysis
 
 
----
-
 ## 📝 Overview
 
 This repository contains a comprehensive collection of machine learning projects implemented in Python, covering both **supervised** and **unsupervised learning** algorithms. The projects span from fundamental regression techniques to advanced ensemble methods and customer segmentation analysis. Each project includes detailed analysis, professional visualizations, business insights, and educational content suitable for learning and portfolio demonstration.
-
-### 🎯 **What You'll Find:**
-- **📊 Regression Analysis**: Linear regression techniques for predictive modeling
-- **🎯 Classification Methods**: Multi-class classification and fraud detection systems  
-- **🌳 Ensemble Learning**: Random Forest and XGBoost comparative analysis
-- **🔍 Unsupervised Learning**: K-Means clustering for customer segmentation
-- **� Dimensionality Reduction**: PCA visualization and explained variance analysis
-- **�💼 Business Applications**: Real-world problem solving with actionable insights
-- **📈 Advanced Visualizations**: From basic plots to interactive 3D analysis
 
 ## 📂 Project Structure
 
@@ -73,6 +47,11 @@ Machine Learning/
 │
 ├── Random Forest & XGBoost/
 │   ├── random_forests_XGBoost.ipynb
+│   └── README.md
+│
+├── Random Forest Evaluation/
+│   ├── random_forest_evaluation.ipynb
+│   ├── requirements.txt
 │   └── README.md
 │
 ├── K-Means/
@@ -152,6 +131,17 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Visualization: Predicted vs Actual scatter with ±1σ band for both models
   - Reproducibility with fixed random seeds; guidance if xgboost is missing
   - Notebook: `Random Forest & XGBoost/Random_Forests_XGBoost_personal.ipynb`
+
+### 🌲 Random Forest Evaluation
+- **Objective**: Comprehensive evaluation of Random Forest regression performance on California Housing data
+- **Key Features**:
+  - In-depth statistical metrics analysis (MAE, MSE, RMSE, R²) with business interpretation
+  - Systematic residual analysis to identify model biases and limitations
+  - Feature importance ranking with domain knowledge validation
+  - Advanced visualization techniques for model assessment
+  - Data quality impact analysis (skewed distributions, clipped values)
+  - Educational focus on proper evaluation methodology beyond accuracy metrics
+  - Notebook: `Random Forest Evaluation/random_forest_evaluation.ipynb`
 
 ### 🎯 K-Means Customer Segmentation
 - **Objective**: Apply unsupervised learning to identify distinct customer segments for targeted marketing
