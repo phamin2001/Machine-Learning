@@ -75,6 +75,7 @@ Machine Learning/
 │
 ├── Evaluating_Classification_Models/
 │   ├── Evaluating_Classification_Models.ipynb
+│   ├── Evaluating_KMeans_Clustering.ipynb
 │   ├── requirements.txt
 │   └── README.md
 │
@@ -193,6 +194,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Confusion matrix visualization and interpretation
   - Special focus on medical context and error type implications
   - Notebook: `Evaluating_Classification_Models/Evaluating_Classification_Models.ipynb`
+  - Companion practice notebook covering k-means cluster evaluation (silhouette, inertia, Davies–Bouldin, Voronoi diagnostics): `Evaluating_Classification_Models/Evaluating_KMeans_Clustering.ipynb`
 
 ## 🛠️ Technologies Used
 
@@ -202,6 +204,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - `numpy`: Numerical computations
   - `matplotlib`: Data visualization
   - `seaborn`: Statistical visualization and enhanced plots
+  - `scipy`: Spatial analysis, distance metrics, and Voronoi diagrams
   - `scikit-learn`: Machine learning algorithms and tools
   - `xgboost`: Gradient-boosted trees implementation
   - `plotly`: Interactive 3D visualizations
@@ -246,7 +249,6 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
 - Model comparison and selection techniques
 - Feature importance and correlation analysis
 - Performance evaluation metrics and ROC analysis
-`
 ### 🌳 Advanced Classification Algorithms
 - **Decision Trees**: Interpretable models with depth control and pruning
 - **Support Vector Machines**: High-dimensional data classification with kernel methods
