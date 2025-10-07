@@ -76,6 +76,7 @@ Machine Learning/
 ├── Evaluating_Classification_Models/
 │   ├── Evaluating_Classification_Models.ipynb
 │   ├── Evaluating_KMeans_Clustering.ipynb
+│   ├── Regularization_in_Linear_Regression.ipynb
 │   ├── requirements.txt
 │   └── README.md
 │
@@ -195,6 +196,7 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Special focus on medical context and error type implications
   - Notebook: `Evaluating_Classification_Models/Evaluating_Classification_Models.ipynb`
   - Companion practice notebook covering k-means cluster evaluation (silhouette, inertia, Davies–Bouldin, Voronoi diagnostics): `Evaluating_Classification_Models/Evaluating_KMeans_Clustering.ipynb`
+  - Experimental regularization lab with Ridge, Lasso, Elastic Net comparisons and feature-selection workflow: `Evaluating_Classification_Models/Regularization_in_Linear_Regression.ipynb`
 
 ## 🛠️ Technologies Used
 

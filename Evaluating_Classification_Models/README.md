@@ -1,10 +1,11 @@
 # Evaluating Classification Models
 
-This practice folder now contains two complementary notebooks: one focused on **classification model evaluation** and another that deepens your intuition for **k-means clustering**. Both notebooks include detailed commentary, helper functions, and reflection prompts so you can revisit the course material at your own pace.
+This practice folder now contains three complementary notebooks: two focused on **classification model evaluation** (including regularization) and another that deepens your intuition for **k-means clustering**. All notebooks include detailed commentary, helper functions, and reflection prompts so you can revisit the course material at your own pace.
 
 ## Contents
 - `Evaluating_Classification_Models.ipynb` — Classification workflow using the Wisconsin breast cancer dataset, covering KNN and SVM with extensive evaluation
 - `Evaluating_KMeans_Clustering.ipynb` — Guided exploration of k-means clustering, including silhouette analysis, metric comparisons, and edge cases for non-spherical data
+- `Regularization_in_Linear_Regression.ipynb` — Hands-on comparison of Ridge, Lasso, and Elastic Net regularization for linear regression using a synthetic, high-dimensional dataset
 - `README.md` — Documentation (this file)
 - `requirements.txt` — Python dependencies for running the notebooks
 
@@ -15,6 +16,7 @@ This practice folder now contains two complementary notebooks: one focused on **
 - End-to-end k-means walkthrough with reusable silhouette plotting helper
 - Visual comparison of inertia, silhouette scores, and Davies–Bouldin index for multiple values of *k*
 - Experiments showing the limits of k-means on non-spherical data (with Voronoi diagrams for intuition)
+- Regularization tuning with cross-validation sweeps and comparative diagnostics for Ridge, Lasso, and Elastic Net
 
 ## How to use
 
@@ -31,6 +33,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook Evaluating_Classification_Models.ipynb
 jupyter notebook Evaluating_KMeans_Clustering.ipynb
+jupyter notebook Regularization_in_Linear_Regression.ipynb
 ```
 
 ## Key Concepts Covered
@@ -42,6 +45,8 @@ jupyter notebook Evaluating_KMeans_Clustering.ipynb
 - Silhouette analysis, inertia, and Davies–Bouldin scores for clustering
 - Assessing k-means stability and the impact of centroid initialisation
 - Recognising when to switch from k-means to density-based clustering methods
+- Ridge, Lasso, and Elastic Net regularization trade-offs for linear regression
+- Hyperparameter selection with cross-validation and residual diagnostics
 
 ## Requirements
 
