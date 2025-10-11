@@ -68,6 +68,10 @@ Machine Learning/
 │   ├── pca_demo.ipynb
 │   └── README.md
 │
+├── Pipelines_and_Model_Selection/
+│   ├── pca_knn_pipeline_experiment.ipynb
+│   └── README.md (coming soon)
+│
 ├── tSNE_UMAP_Dimension_Reduction/
 │   ├── tSNE_UMAP_Dimension_Reduction.ipynb
 │   ├── requirements.txt
@@ -175,6 +179,14 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - 2D visualization of Iris classes in PCA space
   - Explained variance and cumulative variance plots to choose number of PCs
   - Notebook: `PCA/pca_demo.ipynb`
+
+### 🧪 Pipeline Diagnostics with PCA + k-NN
+- **Objective**: Understand how PCA-driven feature transformations interact with k-NN classification inside a single evaluation pipeline
+- **Key Features**:
+  - Baseline vs PCA-enhanced pipeline comparison with cross-validation
+  - Hold-out diagnostics including confusion matrix and classification report
+  - Explained-variance curve to justify PCA component selection
+  - Notebook: `Pipelines_and_Model_Selection/pca_knn_pipeline_experiment.ipynb`
 
 ### 🔄 t-SNE vs UMAP: Advanced Dimensionality Reduction
 - **Objective**: Compare nonlinear dimensionality reduction techniques on synthetic 3D data
