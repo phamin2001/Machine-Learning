@@ -70,7 +70,11 @@ Machine Learning/
 │
 ├── Pipelines_and_Model_Selection/
 │   ├── pca_knn_pipeline_experiment.ipynb
-│   └── README.md (coming soon)
+│   └── README.md
+│
+├── Titanic_Survival_Prediction/
+│   ├── titanic_survival_pipeline.ipynb
+│   └── README.md
 │
 ├── tSNE_UMAP_Dimension_Reduction/
 │   ├── tSNE_UMAP_Dimension_Reduction.ipynb
@@ -188,7 +192,17 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Explained-variance curve to justify PCA component selection
   - Notebook: `Pipelines_and_Model_Selection/pca_knn_pipeline_experiment.ipynb`
 
-### 🔄 t-SNE vs UMAP: Advanced Dimensionality Reduction
+### � Titanic Survival Prediction with ML Pipelines
+- **Objective**: Build an end-to-end classification pipeline to predict passenger survival using mixed data types
+- **Key Features**:
+  - Automated preprocessing with ColumnTransformer for numerical and categorical features
+  - Stratified cross-validation and GridSearchCV for imbalanced datasets
+  - Model comparison: Random Forest vs Logistic Regression
+  - Feature importance analysis and coefficient interpretation
+  - Comprehensive confusion matrices and classification reports
+  - Notebook: `Titanic_Survival_Prediction/titanic_survival_pipeline.ipynb`
+
+### �🔄 t-SNE vs UMAP: Advanced Dimensionality Reduction
 - **Objective**: Compare nonlinear dimensionality reduction techniques on synthetic 3D data
 - **Key Features**:
   - Side-by-side comparison of PCA, t-SNE, and UMAP
