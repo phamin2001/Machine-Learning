@@ -15,6 +15,8 @@
 - **📊 Model Evaluation**: Comprehensive performance assessment and interpretation techniques
 - **💼 Business Applications**: Real-world problem solving with actionable insights
 - **📈 Advanced Visualizations**: From basic plots to interactive 3D and geographic analysis
+- **🌧️ Weather Prediction**: Rainfall forecasting with imbalanced data handling
+- **⚖️ Class Imbalance**: Techniques for handling imbalanced datasets effectively
 
 
 ## 📝 Overview
@@ -85,6 +87,11 @@ Machine Learning/
 │   ├── Evaluating_Classification_Models.ipynb
 │   ├── Evaluating_KMeans_Clustering.ipynb
 │   ├── Regularization_in_Linear_Regression.ipynb
+│   ├── requirements.txt
+│   └── README.md
+│
+├── Rainfall_Prediction/
+│   ├── rainfall_prediction_australia.ipynb
 │   ├── requirements.txt
 │   └── README.md
 │
@@ -223,6 +230,23 @@ A comprehensive exploration of regression techniques for predicting CO2 emission
   - Notebook: `Evaluating_Classification_Models/Evaluating_Classification_Models.ipynb`
   - Companion practice notebook covering k-means cluster evaluation (silhouette, inertia, Davies–Bouldin, Voronoi diagnostics): `Evaluating_Classification_Models/Evaluating_KMeans_Clustering.ipynb`
   - Experimental regularization lab with Ridge, Lasso, Elastic Net comparisons and feature-selection workflow: `Evaluating_Classification_Models/Regularization_in_Linear_Regression.ipynb`
+
+### 🌧️ Australian Weather - Rainfall Prediction Classifier
+- **Objective**: Build a binary classifier to predict whether it will rain today in Melbourne using yesterday's weather data
+- **Key Features**:
+  - **Data Leakage Prevention**: Reframed prediction task to avoid using same-day features
+  - **Feature Engineering**: Created seasonal features and handled temporal data
+  - **Data Granularity Strategy**: Focused on Melbourne region (3 locations) for localized accuracy
+  - **Pipeline Development**: Robust ML pipeline with preprocessing (StandardScaler + OneHotEncoder)
+  - **Model Comparison**: Random Forest (84% accuracy) vs Logistic Regression (83% accuracy)
+  - **Class Imbalance Analysis**: Deep dive into handling 76% no-rain vs 24% rain distribution
+  - **Performance Metrics**: Comprehensive evaluation beyond accuracy (precision, recall, F1-score)
+  - **Feature Importance**: Identified top predictors (Humidity3pm, Sunshine, Cloud3pm)
+  - **Critical Insight**: Both models achieve only 51% recall for rain (miss ~50% of rainy days)
+  - **Business Context**: Practical recommendations for improving minority class detection
+  - **Educational Value**: Demonstrates why accuracy alone is misleading for imbalanced datasets
+  - **Dataset**: 7,557 observations from Australian Bureau of Meteorology (2008-2017)
+  - Notebook: `Rainfall_Prediction/rainfall_prediction_australia.ipynb`
 
 ## 🛠️ Technologies Used
 
